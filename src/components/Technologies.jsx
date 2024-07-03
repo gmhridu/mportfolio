@@ -27,7 +27,7 @@ const Technologies = () => {
           title="NextJs"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <TbBrandNextjs className="text-7xl text-black" />
+          <TbBrandNextjs className="text-7xl" />
         </div>
         <div
           title="Firebase"
