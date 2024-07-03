@@ -46,9 +46,9 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "123 Your Street, Your City, Your Country",
-  phoneNo: "+880 1234 567890",
-  email: "your.email@example.com"
+  address: "1127/12/B, Nobinbag, Jurain, Kadamtoli",
+  phoneNo: "+880 1905147305",
+  email: "hasanhridoymahabub9@gmail.com"
 };
 
 export const SERVICES = [
