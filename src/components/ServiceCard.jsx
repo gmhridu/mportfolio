@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 import { FiCodesandbox } from 'react-icons/fi';
 import { HiOutlineCode } from 'react-icons/hi';
@@ -5,7 +6,10 @@ import { SiReact } from 'react-icons/si';
 
 const ServiceCard = ({service, details, index}) => {
     return (
-        <div
+        <motion.div
+        whileInView={{opacity: 1, x:0}}
+        initial={{ opacity: 0, x: -100 }}
+        transition={{duration: 1.5, delay: 0.5}}
         className="hover:text-primary hover:border-primary border-[1px] border-accent p-6 rounded-2xl 
       "
       >
@@ -16,7 +20,7 @@ const ServiceCard = ({service, details, index}) => {
           {service}
         </h1>
         <p className="text-accent mt-3 text-sm">{details}</p>
-      </div>
+      </motion.div>
     );
 };
 
