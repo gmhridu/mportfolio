@@ -3,9 +3,15 @@ import project2 from '../assets/projects/project-2.jpg'
 import project3 from '../assets/projects/project-3.jpg'
 import project4 from '../assets/projects/project-4.jpg'
 
-export const HERO_CONTENT = "I am a passionate frontend developer with a focus on crafting engaging and dynamic user experiences. With 1 year of hands-on experience, I have honed my skills in frontend technologies like HTML, CSS, Tailwind CSS, React, Firebase, and MongoDB, and I am currently expanding my expertise in Next.js and Redux. My goal is to leverage my growing skill set to create innovative web solutions that provide exceptional user experiences.";
+export const HERO_CONTENT = "I am a passionate frontend developer dedicated to building engaging and dynamic user experiences. With 1 year of experience, I specialize in technologies like HTML, CSS, Tailwind CSS, React, Firebase, and MongoDB. Currently, I am expanding my expertise in Next.js and Redux to create innovative web solutions that deliver exceptional user experiences. I also choose not to use social media platforms like **Facebook** or **Instagram**, allowing me to focus entirely on personal growth and advancing my skills.";
 
-export const ABOUT_TEXT = "I am a dedicated frontend developer with a passion for creating efficient and user-friendly web applications. Over the past year, I have worked with a variety of technologies, including HTML, CSS, Tailwind CSS, React, Firebase, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a continuous learning experience. Currently, I am diving into Next.js and Redux to further enhance my skillset. Outside of coding, I enjoy staying active and exploring new technologies.";
+
+export const ABOUT_TEXT = `I am a passionate frontend developer with over a year of experience in creating efficient and user-friendly web applications. My technical expertise includes HTML, CSS, Tailwind CSS, JavaScript, React, Firebase, and MongoDB. Currently, I am enhancing my skillset by diving into Next.js and Redux.
+
+My journey in web development began with a deep curiosity for how things work, which has grown into a commitment to continuous learning. I enjoy writing clean, maintainable code and building solutions that make a meaningful impact.
+
+I choose not to use social media platforms like **Facebook** or **Instagram** because I prefer to focus my time on personal growth, learning new technologies, and improving my craft. Avoiding social media distractions allows me to stay productive and maintain a clear, focused mindset, aligning with my goal of becoming a better developer every day.`;
+
 
 export const SKILLS = [
   "HTML",
@@ -46,9 +52,9 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "1127/12/B, Nobinbag, Jurain, Kadamtoli",
-  phoneNo: "+880 1905147305",
-  email: "hasanhridoymahabub9@gmail.com"
+  address: "Dinajpur, Rajshahi, Bangladesh",
+  phoneNo: "+880 19054884654",
+  email: "feteamislampriya05@gmail.com"
 };
 
 export const SERVICES = [

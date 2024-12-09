@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/profile/WhatsApp Image 2024-06-16 at 2.09.59 PM.jpeg";
+import profilePic from '../assets/dp.jpg'
 import { motion } from "framer-motion";
 
 const container = (delay) => ({
@@ -24,7 +24,7 @@ const Hero = () => {
               animate="visible"
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl"
             >
-              Golam Mahabub Redoy
+              Fatema Islam Prima
             </motion.h1>
             <motion.span 
             variants={container(0.5)}
@@ -48,7 +48,7 @@ const Hero = () => {
             initial={{x: 100, opacity: 0}}
             animate={{x: 0, opacity: 1}}
             transition={{duration: 1, delay: 1.2}}
-            className="w-full object-cover h-full rounded-md" src={profilePic} alt="Golam Mahabub Redoy" />
+            className="w-full object-cover h-full rounded-md" src={profilePic} alt="Fatema Islam Prima" />
           </div>
         </div>
       </div>

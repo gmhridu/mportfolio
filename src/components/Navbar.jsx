@@ -16,9 +16,6 @@ const Navbar = () => {
         <Link to={'https://www.linkedin.com/in/golam-mahabub-hridu/'} target="_blank">
         <FaLinkedin/>
         </Link>
-        <Link to={'https://www.facebook.com/0.0.Meaaaw.0.0?mibextid=ZbWKwL'} target="_blank">
-        <FaFacebook/>
-        </Link>
       </div>
     </nav>
   );

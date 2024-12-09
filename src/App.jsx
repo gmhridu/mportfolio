@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import MyArts from "./components/MyArts";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <About />
+        <MyArts/>
         <Technologies/>
         <Services/>
         <Projects/>
